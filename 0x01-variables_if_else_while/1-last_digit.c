@@ -16,7 +16,7 @@ int main(void)
 	printf("Random number: %d\n", n);
 	if (n > 5)
 	{
-		("The las
+		("The last 
 
 	}
 }
