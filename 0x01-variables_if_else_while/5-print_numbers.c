@@ -10,7 +10,7 @@ int main(void)
 
 	for (i = 1; i <= 9; i++)
 	{
-		putchar(i);
+		putchar("%d", i);
 	}
 	putchar('\n');
 	return (0);
