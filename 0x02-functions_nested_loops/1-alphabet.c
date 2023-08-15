@@ -3,7 +3,7 @@
  * print_alphabets - prints the alphabets in lover case
  *
  */
-void print_alphabets(void)
+void print_alphabet(void)
 {
 	char current_char = 'a';
 
