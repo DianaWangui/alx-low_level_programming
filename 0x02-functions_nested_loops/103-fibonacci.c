@@ -2,7 +2,7 @@
 /**
  * main - prints suma of all even fibonacci numbers under 4000000
  *
- *Return: 0 
+ *Return: 0
  */
 int main(void)
 {
