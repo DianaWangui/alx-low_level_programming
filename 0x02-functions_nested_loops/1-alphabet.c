@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  * print_alphabets - prints the alphabets in lover case
  *
