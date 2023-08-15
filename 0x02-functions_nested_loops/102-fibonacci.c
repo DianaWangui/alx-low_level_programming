@@ -21,7 +21,7 @@ int main(void)
 		z = x + y;
 		x = y;
 		y = z;
-		printf("%lu\n,", z);
+		printf("%lu,", z);
 	}
 	printf("%lu\n", z + x);
 	return (0);
