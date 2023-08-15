@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabets - prints the alphabets in lover case
+ * print_alphabet - prints the alphabets in lover case
  *
  */
 void print_alphabet(void)
@@ -11,6 +11,6 @@ void print_alphabet(void)
 	{
 		_putchar(current_char);
 		current_char++;
-		_putchar('\n');
 	}
+	_putchar('\n');
 }
