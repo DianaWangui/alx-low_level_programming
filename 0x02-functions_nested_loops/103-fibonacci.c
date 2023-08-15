@@ -11,6 +11,7 @@ int main(void)
 	z = 0;
 	x = 0;
 	y = 1;
+	sum = 0;
 
 	while (z < 4000000)
 	{
