@@ -3,8 +3,7 @@
  * *_strcpy - A function that copies the string pointed to by
  * src including the terminated null byte to the buffer
  * pointed by dest
- * @*dest: ponter
- * @char: the character string
+ * @*dest: pointer to the destination buffer
  * @*src: pointer to the string
  * @src: pointer
  * @dest: pointer to character
