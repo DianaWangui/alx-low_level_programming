@@ -4,6 +4,7 @@
  * from src
  * @src: The string to be concatenated
  * @dest: The string to be concatenated to
+ * @n: The character byte to be printed
  * Return: 0 (Success)
  */
 char *_strncat(char *dest, char *src, int n)
