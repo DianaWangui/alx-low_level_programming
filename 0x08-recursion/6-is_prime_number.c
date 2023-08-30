@@ -3,8 +3,7 @@
  * is_prime_number - A function that checks if a number is
  * prime number or not
  * @n: The number to be checked
- * Return: 1 if number is prime
- * Return: 0 if its not
+ * Return: 1 if number is prime and 0 if its not
  */
 int is_prime_number(int n)
 {
