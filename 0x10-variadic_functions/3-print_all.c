@@ -45,6 +45,7 @@ void print_all(const char * const format, ...)
 			s = ", ";
 			i++;
 		}
-		printf("\n");
-		va_end(args);
+	}
+	printf("\n");
+	va_end(list);
 }
