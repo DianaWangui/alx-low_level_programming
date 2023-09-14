@@ -16,7 +16,6 @@ void print_all(const char * const format, ...)
 	char *s = "";
 
 	va_start(args, format);
-
 	if (format)
 	{
 		while (format[i])
@@ -47,5 +46,5 @@ void print_all(const char * const format, ...)
 		}
 	}
 	printf("\n");
-	va_end(list);
+	va_end(args);
 }
