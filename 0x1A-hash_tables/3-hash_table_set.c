@@ -4,8 +4,7 @@
  * @ht: update the key/value
  * @key: is the key to add. cannot be empty string
  * @value: is the value associated with the key
- * Return: success (1) else
- * 		fail (0)
+ * Return: success (1) else fail (0)
  */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
