@@ -1,7 +1,7 @@
 #include "hash_tables.h"
 /**
  *hash_tble - prints hash table
- *@ht: a pointer to the hash tablet 
+ *@ht: a pointer to the hash tablet
  */
 void hash_table_print(const hash_table_t *ht)
 {
