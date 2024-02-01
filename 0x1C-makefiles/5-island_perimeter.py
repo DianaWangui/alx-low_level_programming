@@ -13,14 +13,3 @@ def island_perimeter(grid):
         if j == len(grid[0]) - 1 or grid[i][j + 1] == 0:
           per += 1
   return per
-
-
-if __name__ == "__main__":
-    grid = [
-        [0, 0, 0, 0, 0, 0],
-        [0, 1, 0, 0, 0, 0],
-        [0, 1, 0, 0, 0, 0],
-        [0, 1, 1, 1, 0, 0],
-        [0, 0, 0, 0, 0, 0]
-    ]
-    print(island_perimeter(grid))
