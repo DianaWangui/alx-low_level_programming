@@ -8,7 +8,7 @@
 */
 int binary_search(int *array, size_t size, int value)
 {
-	int i, left = 0, right = size - 1, mid;
+	size_t i, left = 0, right = size - 1, mid;
 	if (!array)
 		return (-1);
 
