@@ -11,7 +11,8 @@
  * Return: -1 if not found index if found
  *
  */
-int binary_search(int *array, size_t left, size_t right, int value) {
+int binary_search(int *array, size_t left, size_t right, int value) 
+{
         size_t mid, i;
 
         if (right >= left) {
@@ -56,7 +57,7 @@ int binary_search(int *array, size_t left, size_t right, int value) {
 
          while (i < size && array[i] <= value)
          {
-                 printf("Value checked array[%lu] = [%lu]\n", i, i);
+                 printf("Value checked array[%lu] = [%u]\n", i, array[i]);
                  i *= 2;
          }
          printf("Value found between indexes [%lu] and [%lu]\n", i / 2, min(i, size - 1));
