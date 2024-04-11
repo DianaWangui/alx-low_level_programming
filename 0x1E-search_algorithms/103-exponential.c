@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "search_algos.h"
 #define min(a, b) (((a) < (b)) ? (a) : (b))
 /**
  * binary_search - searches for a value in a sorted array
@@ -22,7 +22,9 @@ int binary_search(int *array, size_t left, size_t right, int value) {
                 mid = (left + right) / 2;
 
                 if (array[mid] == value)
+                {
                         return (mid);
+                }
 
                 if (array[mid] < value)
                         return binary_search(array, mid + 1, right, value);
@@ -46,7 +48,9 @@ int binary_search(int *array, size_t left, size_t right, int value) {
          size_t i = 1;
 
          if (array == NULL || size == 0)
+         {
                  return (-1);
+         }
          if (array[0] == value)
                  return (0);
 
